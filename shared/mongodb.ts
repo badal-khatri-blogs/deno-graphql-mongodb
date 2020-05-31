@@ -5,7 +5,7 @@ const client = new MongoClient();
  * MongoDB Atlas SRV URL
  * Change username and password to appropriate
  */
-client.connectWithUri("mongodb+srv://badal:badal@cluster0-veuja.mongodb.net/");
+client.connectWithUri("mongodb+srv://<username>:<password>@cluster0-veuja.mongodb.net/");
 
 const db = client.database("denographql");
 
